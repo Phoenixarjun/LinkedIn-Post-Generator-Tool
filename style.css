@@ -1,0 +1,83 @@
+.container {
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.post-container {
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #0a66c2;
+}
+
+.post-header {
+    color: #0a66c2;
+    margin-bottom: 1rem;
+}
+
+.post-content {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.post-actions {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: #0a66c2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.stButton>button:hover {
+    background-color: #004182;
+    color: white;
+}
+
+.copy-btn {
+    background-color: #f0f2f6;
+    color: #0a66c2;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.copy-btn:hover {
+    background-color: #e0e5eb;
+}
+
+.stSelectbox div[role="button"] {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #0a66c2;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+}
